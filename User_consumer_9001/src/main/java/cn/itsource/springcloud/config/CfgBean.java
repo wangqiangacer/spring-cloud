@@ -14,7 +14,7 @@ public class CfgBean {
 
     @Bean
      //负载均衡调用
-    public RestTemplate getRestTemplate(){
+    public RestTemplate getRestTemplate()  {
         return  new RestTemplate();
     }
 }
