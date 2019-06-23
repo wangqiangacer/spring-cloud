@@ -1,0 +1,21 @@
+
+#配置git仓库的地址和账号密码
+
+spring:
+  application:
+    name: spring-cloud-config
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/wangqiangacer/spring-config.git
+          search-paths: spring-config
+          username: wangqiangacer
+          password: 850994281wq
+server:
+  port: 8888
+eureka:
+  client:
+    service-url:
+     defaultZone: http://localhost:7002/eureka #告诉服务提供者要把服务注册到哪儿

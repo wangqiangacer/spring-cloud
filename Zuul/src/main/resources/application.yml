@@ -1,0 +1,18 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: MICROSERVICE-ZUUL-GATEWAY
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: gateway-9527.com
+    prefer-ip-address: true
+#通过网关 安全加固 网络请求的入口
+zuul:
+  routes:
+    myUser.serviceId: user-consumer-feign  #安全加固 必须为小写  以user开头的转发到user-consumer-feign
+    myUser.path: /user/**
+  ignored-services: "*"  #原来不用网关的方式不能访问 直接忽略掉
