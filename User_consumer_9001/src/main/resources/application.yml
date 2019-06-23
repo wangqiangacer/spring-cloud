@@ -1,0 +1,9 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: USER-CONSUMER #不要使用下划线
+#eureka:
+#  client:
+#    service-url:
+#     defaultZone: http://localhost:7001/eureka #告诉服务提供者要把服务注册到哪儿
