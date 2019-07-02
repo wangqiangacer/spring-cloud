@@ -22,7 +22,7 @@ public class UserController  implements UserClient{
         if(id==2){
             throw  new RuntimeException("用户不存在！！！");
         }
-        return  new User(id,"wangqiang");
+        return  new User(id,"wangqiang1111");
 
     }
 
