@@ -21,6 +21,7 @@
         <module>User_consumer_feign_9003</module>
         <module>Zuul</module>
         <module>spring-cloud-config</module>
+        <module>zipkin-service</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
