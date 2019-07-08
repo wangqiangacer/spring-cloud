@@ -21,8 +21,8 @@ public class CfgBean {
         return  new RestTemplate();
     }
 //修改负载均衡策略   默认是轮询的
-    @Bean
-    public IRule myIrule(){
-        return  new RandomRule();
-    }
+//    @Bean
+//    public IRule myIrule(){
+//        return  new RandomRule();
+//    }
 }

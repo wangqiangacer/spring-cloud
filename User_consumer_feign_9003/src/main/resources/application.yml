@@ -1,0 +1,11 @@
+server:
+  port: 9003
+spring:
+  application:
+    name: USER-CONSUMER-FEIGN #不要使用下划线
+eureka:
+  client:
+    registerWithEureka: false #不注册到Eureka,不在注册中心显示
+    service-url:
+      #defaultZone: http://localhost:7001/eureka
+      defaultZone: http://127.0.0.1:7001/eureka,http://127.0.0.1:7002/eureka
