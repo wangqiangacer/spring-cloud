@@ -8,5 +8,5 @@ spring:
 eureka:
   client:
     service-url:
-     #defaultZone: http://localhost:7001/eureka #告诉服务提供者要把服务注册到哪儿
-     defaultZone: http://127.0.0.1:7001/eureka/,http://127.0.0.1:7002/eureka/ #告诉服务提供者要把服务注册到哪儿
+     defaultZone: http://localhost:7002/eureka #告诉服务提供者要把服务注册到哪儿
+     #defaultZone: http://127.0.0.1:7001/eureka/,http://127.0.0.1:7002/eureka/ #告诉服务提供者要把服务注册到哪儿
