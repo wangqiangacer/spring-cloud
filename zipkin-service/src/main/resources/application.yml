@@ -3,8 +3,25 @@ server:
 spring:
   application:
     name: zipkin-service #不要使用下划线
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+
 eureka:
   client:
     service-url:
-     #defaultZone: http://localhost:7001/eureka #告诉服务提供者要把服务注册到哪儿
-     defaultZone: http://127.0.0.1:7001/eureka/,http://127.0.0.1:7002/eureka/ #告诉服务提供者要把服务注册到哪儿
+     #defaultZone: http://admin:admin@192.168.0.21:18761/eureka #告诉服务提供者要把服务注册到哪儿
+     defaultZone: http://localhost:7002/eureka
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false
+zipkin:
+  storage:
+    type: mysql
+sleuth:
+  enabled: true
