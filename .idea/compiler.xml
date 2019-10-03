@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-config-server" />
+        <module name="Eureka_Server_7002" />
+        <module name="User_consumer_ribbon_9002" />
+        <module name="spring-cloud-config" />
+        <module name="Zuul" />
+        <module name="springcloud-provider" />
+        <module name="zipkin" />
+        <module name="springcloud-eureka" />
+        <module name="User_provider_8003" />
+        <module name="User_provider_8002" />
+        <module name="User_provider_8001" />
+        <module name="springcloud-common" />
+        <module name="zipkin-service" />
+        <module name="User_provider_8004" />
+        <module name="User_interface" />
+        <module name="springcloud-zk" />
+        <module name="User_consumer_9001" />
+        <module name="EurekaServer_7001" />
+        <module name="springcloud-producer" />
+        <module name="springcloud-config-client" />
+        <module name="User_provider_feign_9003" />
+        <module name="springcloud-consumer" />
+        <module name="springcloud-consumer1" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Eureka_Server_7002" target="1.8" />
+      <module name="EurekaServer_7001" target="1.8" />
+      <module name="spring-cloud-config" target="1.8" />
+      <module name="springcloud-common" target="1.8" />
+      <module name="springcloud-config-client" target="1.8" />
+      <module name="springcloud-config-server" target="1.8" />
+      <module name="springcloud-consumer" target="1.8" />
+      <module name="springcloud-consumer1" target="1.8" />
+      <module name="springcloud-eureka" target="1.8" />
+      <module name="springcloud-producer" target="1.8" />
+      <module name="springcloud-provider" target="1.8" />
+      <module name="springcloud-zipkin" target="1.8" />
+      <module name="springcloud-zipkin-es" target="1.8" />
+      <module name="springcloud-zk" target="1.8" />
+      <module name="springcloud-zookeeper" target="1.8" />
+      <module name="springcloud_parent" target="1.8" />
+      <module name="springcloudconsumer" target="1.5" />
+      <module name="User_consumer_9001" target="1.8" />
+      <module name="User_consumer_ribbon_9002" target="1.8" />
+      <module name="User_interface" target="1.8" />
+      <module name="User_provider_8001" target="1.8" />
+      <module name="User_provider_8002" target="1.8" />
+      <module name="User_provider_8003" target="1.8" />
+      <module name="User_provider_8004" target="1.8" />
+      <module name="User_provider_feign_9003" target="1.8" />
+      <module name="zipkin" target="1.8" />
+      <module name="zipkin-service" target="8" />
+      <module name="Zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springcloud-config-client" options="-parameters" />
+      <module name="springcloud-config-server" options="-parameters" />
+      <module name="springcloud-consumer" options="" />
+      <module name="springcloud-eureka" options="" />
+      <module name="springcloud-zipkin-es" options="-parameters" />
+    </option>
+  </component>
+</project>

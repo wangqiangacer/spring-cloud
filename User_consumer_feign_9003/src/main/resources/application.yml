@@ -10,4 +10,4 @@ eureka:
     registerWithEureka: true #不注册到Eureka,不在注册中心显示
     service-url:
       #defaultZone: http://localhost:7001/eureka
-      defaultZone: http://192.168.0.124:7002/eureka
+      defaultZone: http://localhost:7002/eureka

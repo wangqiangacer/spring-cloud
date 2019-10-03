@@ -1,0 +1,19 @@
+spring:
+  cloud:
+    config:
+      name: application-user
+      profile: test
+      label: master
+      uri: http://localhost:8888
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7002/eureka #告诉服务提供者要把服务注册到哪儿
+      #defaultZone: http://127.0.0.1:7001/eureka/,http://127.0.0.1:7002/eureka/ #告诉服务提供者要把服务注册到哪儿
+#开启所有监控端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
