@@ -8,6 +8,7 @@ public class SpringcloudConfigClientApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(SpringcloudConfigClientApplication.class, args);
+        //有信钱包
     }
 
 }

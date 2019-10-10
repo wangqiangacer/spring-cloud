@@ -6,35 +6,53 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springcloud-config-server" />
-        <module name="Eureka_Server_7002" />
+        <module name="springcloud-eureka" />
+        <module name="springcloud-common" />
+        <module name="springcloud-consumer1" />
+        <module name="springcloud-zk" />
+        <module name="springcloud-producer" />
+        <module name="springboot-uploadfile" />
         <module name="User_consumer_ribbon_9002" />
+        <module name="actuator-admin-server" />
+        <module name="User_consumer_9001" />
         <module name="spring-cloud-config" />
         <module name="Zuul" />
-        <module name="springcloud-provider" />
+        <module name="actuator-admin-client-01" />
+        <module name="springboot-mvc" />
+        <module name="springcloud-consumer" />
+        <module name="springboot-actuator" />
+        <module name="springcloud-config-server" />
+        <module name="actuator-admin-client" />
+        <module name="EurekaServer_7001" />
         <module name="zipkin" />
-        <module name="springcloud-eureka" />
+        <module name="actuator-springboot" />
+        <module name="zipkin-service" />
+        <module name="springcloud-provider" />
+        <module name="springcloud-config-client" />
+        <module name="java_tomcat" />
+        <module name="Eureka_Server_7002" />
+        <module name="springboot-email" />
+        <module name="User_interface" />
+        <module name="User_provider_8004" />
         <module name="User_provider_8003" />
         <module name="User_provider_8002" />
         <module name="User_provider_8001" />
-        <module name="springcloud-common" />
-        <module name="zipkin-service" />
-        <module name="User_provider_8004" />
-        <module name="User_interface" />
-        <module name="springcloud-zk" />
-        <module name="User_consumer_9001" />
-        <module name="EurekaServer_7001" />
-        <module name="springcloud-producer" />
-        <module name="springcloud-config-client" />
         <module name="User_provider_feign_9003" />
-        <module name="springcloud-consumer" />
-        <module name="springcloud-consumer1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="actuator-admin-client" target="1.8" />
+      <module name="actuator-admin-client-01" target="1.8" />
+      <module name="actuator-admin-server" target="1.8" />
+      <module name="actuator-springboot" target="1.8" />
       <module name="Eureka_Server_7002" target="1.8" />
       <module name="EurekaServer_7001" target="1.8" />
+      <module name="java_tomcat" target="1.8" />
       <module name="spring-cloud-config" target="1.8" />
+      <module name="springboot-actuator" target="1.8" />
+      <module name="springboot-email" target="1.8" />
+      <module name="springboot-mvc" target="1.8" />
+      <module name="springboot-uploadfile" target="1.8" />
       <module name="springcloud-common" target="1.8" />
       <module name="springcloud-config-client" target="1.8" />
       <module name="springcloud-config-server" target="1.8" />
@@ -64,6 +82,13 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="actuator-admin-client" options="-parameters" />
+      <module name="actuator-admin-client-01" options="-parameters" />
+      <module name="actuator-admin-server" options="-parameters" />
+      <module name="actuator-springboot" options="-parameters" />
+      <module name="java_tomcat" options="-parameters" />
+      <module name="springboot-email" options="-parameters" />
+      <module name="springboot-uploadfile" options="-parameters" />
       <module name="springcloud-config-client" options="-parameters" />
       <module name="springcloud-config-server" options="-parameters" />
       <module name="springcloud-consumer" options="" />

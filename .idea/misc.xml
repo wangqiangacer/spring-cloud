@@ -9,6 +9,15 @@
         <option value="$PROJECT_DIR$/../springcloud-zookeeper/pom.xml" />
         <option value="$PROJECT_DIR$/../springcloud-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/../springboot-actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/../springboot-actuator/actuator-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/../springboot-actuator/actuator-admin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/../springboot-actuator/actuator-admin-client/pom.xml" />
+        <option value="$PROJECT_DIR$/../springboot-actuator/actuator-admin-client-01/pom.xml" />
+        <option value="$PROJECT_DIR$/../java_tomcat/pom.xml" />
+        <option value="$PROJECT_DIR$/../springboot-mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/../springboot-email/pom.xml" />
+        <option value="$PROJECT_DIR$/../springboot-uploadfile/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
