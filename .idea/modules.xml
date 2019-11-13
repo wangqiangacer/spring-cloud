@@ -5,19 +5,20 @@
       <module fileurl="file://$PROJECT_DIR$/EurekaServer_7001/EurekaServer_7001.iml" filepath="$PROJECT_DIR$/EurekaServer_7001/EurekaServer_7001.iml" />
       <module fileurl="file://$PROJECT_DIR$/Eureka_Server_7002/Eureka_Server_7002.iml" filepath="$PROJECT_DIR$/Eureka_Server_7002/Eureka_Server_7002.iml" />
       <module fileurl="file://$PROJECT_DIR$/User_consumer_9001/User_consumer_9001.iml" filepath="$PROJECT_DIR$/User_consumer_9001/User_consumer_9001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/User_consumer_feign_9003/User_provider_feign_9003.iml" filepath="$PROJECT_DIR$/User_consumer_feign_9003/User_provider_feign_9003.iml" />
       <module fileurl="file://$PROJECT_DIR$/User_consumer_ribbon_9002/User_consumer_ribbon_9002.iml" filepath="$PROJECT_DIR$/User_consumer_ribbon_9002/User_consumer_ribbon_9002.iml" />
       <module fileurl="file://$PROJECT_DIR$/User_interface/User_interface.iml" filepath="$PROJECT_DIR$/User_interface/User_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/User_provider_8001/User_provider_8001.iml" filepath="$PROJECT_DIR$/User_provider_8001/User_provider_8001.iml" />
       <module fileurl="file://$PROJECT_DIR$/User_provider_8002/User_provider_8002.iml" filepath="$PROJECT_DIR$/User_provider_8002/User_provider_8002.iml" />
       <module fileurl="file://$PROJECT_DIR$/User_provider_8003/User_provider_8003.iml" filepath="$PROJECT_DIR$/User_provider_8003/User_provider_8003.iml" />
       <module fileurl="file://$PROJECT_DIR$/User_provider_8004/User_provider_8004.iml" filepath="$PROJECT_DIR$/User_provider_8004/User_provider_8004.iml" />
-      <module fileurl="file://$PROJECT_DIR$/User_consumer_feign_9003/User_provider_feign_9003.iml" filepath="$PROJECT_DIR$/User_consumer_feign_9003/User_provider_feign_9003.iml" />
       <module fileurl="file://$PROJECT_DIR$/Zuul/Zuul.iml" filepath="$PROJECT_DIR$/Zuul/Zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/../springboot-actuator/actuator-admin-client/actuator-admin-client.iml" filepath="$PROJECT_DIR$/../springboot-actuator/actuator-admin-client/actuator-admin-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/../springboot-actuator/actuator-admin-client-01/actuator-admin-client-01.iml" filepath="$PROJECT_DIR$/../springboot-actuator/actuator-admin-client-01/actuator-admin-client-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/../springboot-actuator/actuator-admin-server/actuator-admin-server.iml" filepath="$PROJECT_DIR$/../springboot-actuator/actuator-admin-server/actuator-admin-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/../springboot-actuator/actuator-springboot/actuator-springboot.iml" filepath="$PROJECT_DIR$/../springboot-actuator/actuator-springboot/actuator-springboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/../java_tomcat/java_tomcat.iml" filepath="$PROJECT_DIR$/../java_tomcat/java_tomcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud.iml" filepath="$PROJECT_DIR$/spring-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" filepath="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/../springboot-actuator/springboot-actuator.iml" filepath="$PROJECT_DIR$/../springboot-actuator/springboot-actuator.iml" />
       <module fileurl="file://$PROJECT_DIR$/../springboot-email/springboot-email.iml" filepath="$PROJECT_DIR$/../springboot-email/springboot-email.iml" />
@@ -34,7 +35,6 @@
       <module fileurl="file://$PROJECT_DIR$/../springcloud-zipkin/springcloud-zipkin.iml" filepath="$PROJECT_DIR$/../springcloud-zipkin/springcloud-zipkin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../springcloud-zookeeper/springcloud-zk/springcloud-zk.iml" filepath="$PROJECT_DIR$/../springcloud-zookeeper/springcloud-zk/springcloud-zk.iml" />
       <module fileurl="file://$PROJECT_DIR$/../springcloud-zookeeper/springcloud-zookeeper.iml" filepath="$PROJECT_DIR$/../springcloud-zookeeper/springcloud-zookeeper.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcloud_parent.iml" filepath="$PROJECT_DIR$/springcloud_parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/../springcloud-zipkin/zipkin/zipkin.iml" filepath="$PROJECT_DIR$/../springcloud-zipkin/zipkin/zipkin.iml" />
       <module fileurl="file://$PROJECT_DIR$/zipkin-service/zipkin-service.iml" filepath="$PROJECT_DIR$/zipkin-service/zipkin-service.iml" />
     </modules>

@@ -6,15 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springcloud-eureka" />
+        <module name="User_consumer_9001" />
         <module name="springcloud-common" />
         <module name="springcloud-consumer1" />
         <module name="springcloud-zk" />
-        <module name="springcloud-producer" />
+        <module name="springcloud-eureka" />
         <module name="springboot-uploadfile" />
         <module name="User_consumer_ribbon_9002" />
         <module name="actuator-admin-server" />
-        <module name="User_consumer_9001" />
+        <module name="springcloud-producer" />
         <module name="spring-cloud-config" />
         <module name="Zuul" />
         <module name="actuator-admin-client-01" />
@@ -37,7 +37,7 @@
         <module name="User_provider_8003" />
         <module name="User_provider_8002" />
         <module name="User_provider_8001" />
-        <module name="User_provider_feign_9003" />
+        <module name="User_consumer_feign_9003" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -45,39 +45,39 @@
       <module name="actuator-admin-client-01" target="1.8" />
       <module name="actuator-admin-server" target="1.8" />
       <module name="actuator-springboot" target="1.8" />
-      <module name="Eureka_Server_7002" target="1.8" />
-      <module name="EurekaServer_7001" target="1.8" />
+      <module name="Eureka_Server_7002" target="1.5" />
+      <module name="EurekaServer_7001" target="1.5" />
       <module name="java_tomcat" target="1.8" />
-      <module name="spring-cloud-config" target="1.8" />
-      <module name="springboot-actuator" target="1.8" />
+      <module name="spring-cloud" target="1.5" />
+      <module name="spring-cloud-config" target="1.5" />
+      <module name="springboot-actuator" target="1.5" />
       <module name="springboot-email" target="1.8" />
-      <module name="springboot-mvc" target="1.8" />
+      <module name="springboot-mvc" target="1.5" />
       <module name="springboot-uploadfile" target="1.8" />
-      <module name="springcloud-common" target="1.8" />
+      <module name="springcloud-common" target="1.5" />
       <module name="springcloud-config-client" target="1.8" />
       <module name="springcloud-config-server" target="1.8" />
-      <module name="springcloud-consumer" target="1.8" />
-      <module name="springcloud-consumer1" target="1.8" />
-      <module name="springcloud-eureka" target="1.8" />
-      <module name="springcloud-producer" target="1.8" />
-      <module name="springcloud-provider" target="1.8" />
-      <module name="springcloud-zipkin" target="1.8" />
+      <module name="springcloud-consumer" target="1.5" />
+      <module name="springcloud-consumer1" target="1.5" />
+      <module name="springcloud-eureka" target="1.5" />
+      <module name="springcloud-producer" target="1.5" />
+      <module name="springcloud-provider" target="1.5" />
+      <module name="springcloud-zipkin" target="1.5" />
       <module name="springcloud-zipkin-es" target="1.8" />
-      <module name="springcloud-zk" target="1.8" />
-      <module name="springcloud-zookeeper" target="1.8" />
-      <module name="springcloud_parent" target="1.8" />
+      <module name="springcloud-zk" target="1.5" />
+      <module name="springcloud-zookeeper" target="1.5" />
       <module name="springcloudconsumer" target="1.5" />
-      <module name="User_consumer_9001" target="1.8" />
-      <module name="User_consumer_ribbon_9002" target="1.8" />
-      <module name="User_interface" target="1.8" />
-      <module name="User_provider_8001" target="1.8" />
-      <module name="User_provider_8002" target="1.8" />
-      <module name="User_provider_8003" target="1.8" />
-      <module name="User_provider_8004" target="1.8" />
-      <module name="User_provider_feign_9003" target="1.8" />
-      <module name="zipkin" target="1.8" />
+      <module name="User_consumer_9001" target="1.5" />
+      <module name="User_consumer_feign_9003" target="1.5" />
+      <module name="User_consumer_ribbon_9002" target="1.5" />
+      <module name="User_interface" target="1.5" />
+      <module name="User_provider_8001" target="1.5" />
+      <module name="User_provider_8002" target="1.5" />
+      <module name="User_provider_8003" target="1.5" />
+      <module name="User_provider_8004" target="1.5" />
+      <module name="zipkin" target="1.5" />
       <module name="zipkin-service" target="8" />
-      <module name="Zuul" target="1.8" />
+      <module name="Zuul" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

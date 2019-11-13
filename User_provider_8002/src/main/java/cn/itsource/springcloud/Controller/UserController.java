@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @RequestMapping("/user/{id}")
     public User getUser(@PathVariable("id") Long id){
+        System.out.println("get  user  providr 2");
         return  new User(id,"wangqiang_provider1");
 
     }
